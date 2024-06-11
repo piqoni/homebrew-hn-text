@@ -5,20 +5,20 @@
 class HnText < Formula
   desc "a fast, easy-to-use, text-first Hacker News terminal client"
   homepage "https://github.com/piqoni/hn-text"
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     on_intel do
-      url "https://github.com/piqoni/hn-text/releases/download/v0.1.3/hn-text_Darwin_x86_64.tar.gz"
-      sha256 "5100be0ee1b310ebdd1b1d4a295aa06f5ec9145a8cd9d8f0acd8b7501592bf5b"
+      url "https://github.com/piqoni/hn-text/releases/download/v0.1.4/hn-text_Darwin_x86_64.tar.gz"
+      sha256 "ae57f487b090d4bf5758057878330e36655628c7452ac5f1e3450d9b7bfbe5e1"
 
       def install
         bin.install "hn-text"
       end
     end
     on_arm do
-      url "https://github.com/piqoni/hn-text/releases/download/v0.1.3/hn-text_Darwin_arm64.tar.gz"
-      sha256 "ad3918a7dafaea21051ead8f89597fc3f62898332ab8970fb22f7e8acebf1766"
+      url "https://github.com/piqoni/hn-text/releases/download/v0.1.4/hn-text_Darwin_arm64.tar.gz"
+      sha256 "1b5b886a09708fa4db56fc5b87b467400466d82183a7788965ce665eb19ac766"
 
       def install
         bin.install "hn-text"
@@ -29,8 +29,8 @@ class HnText < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/piqoni/hn-text/releases/download/v0.1.3/hn-text_Linux_x86_64.tar.gz"
-        sha256 "b2f4cd3a3a786d8f8a2c8d195190d643af4e2426373fcb37d60749a76f69374f"
+        url "https://github.com/piqoni/hn-text/releases/download/v0.1.4/hn-text_Linux_x86_64.tar.gz"
+        sha256 "c929de17058d2b806a0bf81207fd618f86ee0897ef2a28e269447bea2ab37ff3"
 
         def install
           bin.install "hn-text"
@@ -39,8 +39,8 @@ class HnText < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/piqoni/hn-text/releases/download/v0.1.3/hn-text_Linux_arm64.tar.gz"
-        sha256 "f279e608810fbd6ae84b64dcf2fb67b6cdf3dafc8098eeb388484646301631b1"
+        url "https://github.com/piqoni/hn-text/releases/download/v0.1.4/hn-text_Linux_arm64.tar.gz"
+        sha256 "640408d55688cc5ffdb08b1e4b2f10e3ddd4f87d75df8c78a01fdb9bf3ecaccc"
 
         def install
           bin.install "hn-text"
